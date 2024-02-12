@@ -2,8 +2,10 @@
 Integrantes:
 
 Martinez Perez Brian Erik
+Martinez Hernandez Brandom
 
 */
+#Funcion que calcula el factorial de cualquier numero
 def factorial(n):
    if n==0 or n==1:
             resultado=1
