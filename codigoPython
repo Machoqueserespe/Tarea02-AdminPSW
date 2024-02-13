@@ -1,6 +1,7 @@
 /*
 Integrantes:
 
+García Martínez Luis Eduardo
 Martinez Perez Brian Erik
 Martinez Hernandez Brandom
 
@@ -14,8 +15,9 @@ def factorial(n):
    return resultado
 
 #CALCULAMOS EL FACTORIAL DE 5.
-fact5=factorial(3)
+def main():
+   numero = int(input("Ingrese un numero para calcular su factorial"))
+   print(f"El factorial de {numero} es {factorial(numero)}")
 
 #VISUALIZAMOS RESULTADO.
-print(fact5)
-120
+main()
